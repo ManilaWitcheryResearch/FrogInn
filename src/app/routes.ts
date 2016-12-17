@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {AppComponent} from './containers/app';
+import {AppComponent} from './app';
 
 @Component({
   selector: 'froginn-root',

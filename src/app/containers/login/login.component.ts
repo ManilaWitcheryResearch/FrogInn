@@ -4,6 +4,6 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'login-page',
-  template: `<div>hello login<div>`
+  template: `<login-form></login-form>`
 })
 export class LoginComponent {}

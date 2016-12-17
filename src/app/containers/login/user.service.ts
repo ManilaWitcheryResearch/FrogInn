@@ -15,7 +15,6 @@ export class User{
 @Injectable()
 export class UserService{
   constructor(@Inject(appConfig) private config: AppConfig, private http: Http){
-    console.log(config)
   }
 
   login(username: string, password:string): Observable<User>{
