@@ -41,9 +41,7 @@ module.exports = {
         test: /.html$/,
         loaders: [
           'raw-loader'
-        ],
-        exclude: root('src', 'index.html'),
-        include: root('src', 'app')
+        ]
       }
     ]
   },
